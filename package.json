@@ -1,0 +1,25 @@
+{
+  "name": "react-flyd-provider",
+  "version": "0.1.0",
+  "description": "Flyd provider for React and React Native",
+  "main": "index.js",
+  "keywords": [
+    "react",
+    "flyd"
+  ],
+  "license": "MIT",
+  "author": "Dennis Dietrich",
+  "scripts": {
+    "examples": "./node_modules/browserify/bin/cmd.js examples/index.js > dist/index.js"
+  },
+  "devDependencies": {
+    "browserify": "^16.1.1",
+    "flyd": "^0.2.6",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "union-type": "^0.4.1"
+  },
+  "peerDependencies": {
+    "react": "^15.0.0 || ^16"
+  }
+}
